@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="index.html">
+            <div class="cim">Regisztráció</div>
+            <table>
+                
+                <tr>
+                    <td>
+                        <label for="mezo">Megszólítás<span>*</span></label>
+                        <div class="mezo"></div>
+                        <input type="radio" name="" id="ur">
+                        <label for="ur" class="megsz">Úr</label>
+
+                        <input type="radio" name="" id="holgy">
+                        <label for="holgy" class="megsz">Hölgy</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="veznev">Vezetéknév<span>*</span></label>
+                        <input type="text" name="mezo" id="veznev" required>
+                    </td>
+                    <td>
+                        <label for="kernev">Keresztnév<span>*</span></label>
+                        <input type="text" name="mezo" id="kernev" required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="number">Születési dátum<span>*</span></label>
+                    <div class="mezo"></div>
+                    <input type="number" name="" id="ev" placeholder="ÉÉÉÉ" min="1900" required>
+                    <input type="number" name="" id="ho" placeholder="HH" max="12" required>
+                    <input type="number" name="" id="nap" placeholder="NN" max="31" required>
+                
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail cím<span>*</span></label>
+                        <input type="email" name="mezo" id="email1" required>
+                    </td>
+                    <td>
+                        <label for="emailujra">E-mail cím ismételt megadása<span>*</span></label>
+                        <input type="email" name="mezo" id="email2" required>
+                    </td>
+                    <tr>
+                        <td>
+                            <label for="email">Jelszó<span>*</span></label>
+                            <input type="password" name="mezo" id="jelszo1" required>
+                        </td>
+                        <td>
+                            <label for="emailujra">Jelszó ismételt megadása<span>*</span></label>
+                            <input type="password" name="mezo" id="jelszo2" required>
+                        </td>
+    
+                    </tr>
+
+            </table>
+            <div class="check">
+                <input type="checkbox" name="" id="aszf">
+                <label for="aszf">Tudomásul vettem és elfogadom az  <a href="">Általános Szerződési Feltételek</a>-et, valamint az <a href="">Adatkezelési tájékoztató</a>-ban foglaltakat. <span>*</span></label>
+    
+            </div>
+            <div class="check">
+                <input type="checkbox" name="" id="hirlevel">
+                <label for="hirlevel">Szeretnék feliratkozni a A <b>dm Hírlevelem</b>-re. A hírlevélről bármikor leiratkozhatok. A <a href="">Hozzájárulás a dm hírlevélhez</a>-t elolvastam és elfogadom.</label>
+    
+            </div>
+
+            <input type="submit" value="Tovább" id="tovabb">
+        </form>
+    </div>
+</body>
+</html>

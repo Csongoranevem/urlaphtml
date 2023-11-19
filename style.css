@@ -1,0 +1,76 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+
+    
+}
+
+.container{
+    width: 450px;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-right: 10px;
+
+
+
+}
+
+table{
+    padding: 20px;
+    font-size: 5px;
+}
+
+
+input[name="mezo"]{
+    display: block;
+}
+
+.cim{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#megsz{
+    display: inline;
+}
+span{
+    color: red;
+}
+
+input[type="number"]{
+    width: 50px;
+}
+
+label{
+    font-size: 13px;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+input[type="checkbox"]{
+    
+    size: 1000px;
+    float: left;
+    
+}
+
+.check{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#tovabb{
+    background-color: rgb(49, 49, 255);
+    float: inline-end;
+    border-radius: 40px;
+    width: 60px;
+    color: white;
+    height: 30px;
+}
+ 
